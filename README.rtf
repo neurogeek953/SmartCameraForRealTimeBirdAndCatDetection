@@ -1,0 +1,31 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 In this file you will find the details about the implementation and how the files interact together.\
+\
+# Convolutional Neural Network (CNN) weights\
+\'97>3 .h5 files containing the weights of 3 different neural networks.\
+\
+- BirdsVsCats1.h5 is a CNN with one sigmoid output neuron.\
+\
+- BirdsVsCats2.h5 is a CNN with two sigmoid output neurone -> my final implementation will use this network.\
+\
+- yolo.h5 is an open source CNN trained and designed by Moses Olafenwa that  can recognise 80 different objects  including birds and cats. Note it is the You Only Look Once (YOLO) CNN which is a state of the art computer vision method.\
+\
+# Image Recognition Test Sheet.docx test picture to show the webcam to test the smart camera\
+\'97> 1 Cat & 1 Bird from the test set\
+\
+# 3 Python files containing the implementation\
+\
+- Yolo.py is the output of the YOLO CNN applied to this problem\
+\'97> Simply show a printed sheet of paper of the Image Recognition Test Sheet in front of your laptop\'92s webcam to see the results.\
+\
+- SmartCamera.py is the output of the CNN applied to solve problem.\
+\'97> I recommend the user to load the weights of the BirdsVsCats2 network and use the print_two_node_network_output to watch the neural network results. If the user wishes to observe the output of the other simply comment the model used and uncomment the other. Repeat the same action with the print_\'85_output function\
+\
+- Cnn.py is the file where I implement two CNNs for the smart camera.\
+\'97> running this file will build and train two neural networks with different output layers}

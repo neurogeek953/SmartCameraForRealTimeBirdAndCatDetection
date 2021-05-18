@@ -20,7 +20,7 @@ import cv2
 
 
 ### Put your filepath to yolo.h5
-MODELPATH = "/Users/TEB/IntuitiveSurgical/Interview/yolo.h5"
+MODELPATH = "/Users/TEB/IntuitiveSurgical/SmartCameraSoftwareForBirdAndCatDetection/yolo.h5"
 
 # YOLO CNN Detecting the
 class YOLO:

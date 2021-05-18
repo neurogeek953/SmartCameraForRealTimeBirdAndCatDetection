@@ -258,6 +258,6 @@ if __name__ == '__main__':
     
     
     # Save the neural network weights for both networks
-    BvC1.save_CNN_weights('/Users/TEB/IntuitiveSurgical/Interview/BirdsVsCats3.h5')
-    BvC2.save_CNN_weights('/Users/TEB/IntuitiveSurgical/Interview/BirdsVsCats4.h5')
+    BvC1.save_CNN_weights('/Users/TEB/IntuitiveSurgical/SmartCameraSoftwareForBirdAndCatDetection/BirdsVsCats3.h5')
+    BvC2.save_CNN_weights('/Users/TEB/IntuitiveSurgical/SmartCameraSoftwareForBirdAndCatDetection/BirdsVsCats4.h5')
     
